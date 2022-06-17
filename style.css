@@ -1,0 +1,144 @@
+
+
+body {
+  background-color: lightgrey;
+  margin: 0;
+  font-family: 'Anek Malayalam', sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+  background-color: white;
+  margin: 0px 10%;
+}
+
+.indent {
+  margin-left: 30px;
+}
+
+.headerName {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 2px 0;
+}
+.headerTitle {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+
+.comments {
+  
+  margin: 0 5%;
+}
+
+.SentComment {
+  background-color:rgb(216, 216, 216);
+  
+}
+
+.pos{
+  margin: 0 5%;
+}
+.bottom {
+
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  margin: 0 10%;
+  padding: 3% 1%;
+
+}
+  
+.middle {
+  height: 100vw;
+  margin: 0 10%;
+  background-color: rgb(164, 164, 164);
+  overflow: hidden;
+}
+.hide{
+  display: none;
+}
+
+.comments {
+  display: block;
+  
+}
+
+.edit {
+  float: right;
+  margin: 0 10px;
+  color: rgb(131, 131, 255);
+}
+.delete {
+  float: right;
+  margin: 0 10px;
+  color: rgb(131, 131, 255);
+}
+.edit:hover {
+  cursor: pointer;
+}
+.delete:hover {
+  cursor: pointer;
+}
+
+.once {
+  display:flex;
+  margin: 10px 0;
+}
+
+.LookNormal:hover {
+  cursor: pointer;
+}
+
+.nice {
+  display: flex;  
+}
+
+.NAM {
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 0px;
+  
+}
+
+.COM {
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+
+#DisplayNameBottom{
+  margin-right: 2%;
+  height: 20px;
+}
+#DisplayNameBottom::placeholder{
+  font-family: 'Anek Malayalam', sans-serif;
+}
+#CommentBottom{
+  margin-right: 2%;
+  width: 80%;
+  height: 20px;
+}
+#CommentBottom::placeholder{
+  font-family: 'Anek Malayalam', sans-serif;
+}
+.LookNormal {
+  color: rgb(131, 131, 255);
+}
+.e {
+  color: rgb(131, 131, 255);
+  margin-left: 1%;
+  height: 20px;
+}
+.e::placeholder{
+  font-family: 'Anek Malayalam', sans-serif;
+}
+.e:hover{
+  cursor: pointer;
+}
